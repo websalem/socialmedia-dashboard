@@ -11,10 +11,10 @@ const CardsContainer = () => {
             <div className="container">
                 <div className="socialmedia-cards">
 
-                    <Card title={'@nathanf'} number={'1987'} icon={FacebookIcon} todaysNumber={'12'} todaysNumberIcon={iconUp} />
-                    <Card title={'@nathanf'} number={'1044'} todaysNumber={'99'} todaysNumberIcon={iconUp} icon={twitterIcon} />
-                    <Card title={'@realnathanf'} number={'11k'} todaysNumber={'1099'} todaysNumberIcon={iconUp} icon={instaIcom} />
-                    <Card title={'Nathan F.'} number={'8239'} todaysNumber={'144'} todaysNumberIcon={iconDown} icon={youtubeIcom} />
+                    <Card title={'@nathanf'} number={'1987'} icon={FacebookIcon} todaysNumber={'12'} todaysNumberIcon={iconUp} altText={'facebook'} />
+                    <Card title={'@nathanf'} number={'1044'} todaysNumber={'99'} todaysNumberIcon={iconUp} icon={twitterIcon} altText={'twitter'} />
+                    <Card title={'@realnathanf'} number={'11k'} todaysNumber={'1099'} todaysNumberIcon={iconUp} icon={instaIcom} altText={'instagram'} />
+                    <Card title={'Nathan F.'} number={'8239'} todaysNumber={'144'} todaysNumberIcon={iconDown} icon={youtubeIcom} altText={'youtube'} />
                 </div>
 
             </div>
